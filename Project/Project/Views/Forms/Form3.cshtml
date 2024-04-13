@@ -1,0 +1,16 @@
+﻿<center>
+    <form method="post">
+        <label for="Number1">No1</label>
+        <input type="text" name="n1" id="Number1" value="@ViewBag.n1"><br><br>
+        <label for="Number2">No2</label>
+        <input type="text" name="n2" id="Number2" value="@ViewBag.n2"><br><br>
+        <select name="n3">
+            @for(int i=1;i<=30;i++){
+                <option value="@i" selected>@i</option>
+                }
+        </select><br><br>
+        <input type="submit" value="Second Min"><br><br>
+        <label for="Result">Result</label>
+        <input type="text" name="Result" id="Result" disabled value="@ViewBag.secondMin">
+    </form>
+</center>

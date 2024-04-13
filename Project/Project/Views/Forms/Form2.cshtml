@@ -1,0 +1,18 @@
+﻿
+<center>
+    <form method="post">
+        <label for="Number1">No1</label>
+        <input type="text" name="n1" id="Number1" value="@ViewBag.n1"><br><br>
+        <label for="Number2">No2</label>
+        <input type="text" name="n2" id="Number2" value="@ViewBag.n2"><br><br>
+        <select name="Op">
+            <option value="Add">Add</option>
+            <option value="Sub">Sub</option>
+            <option value="Div">Div</option>
+        </select><br><br>
+        <input type="submit" value="Result">
+        <br><br>
+        <label for="Result">Result</label>
+        <input type="text" name="Result" id="Result" disabled value="@ViewBag.result">
+    </form>
+</center>
