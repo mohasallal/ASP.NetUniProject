@@ -1,0 +1,15 @@
+﻿<center>
+    <form method="post">
+        <label>product name:</label>
+        <input type="text" name="productName"><br><br>
+        <label>Price:</label>
+        <input type="text" name="price"><br><br>
+        <label>Count:</label>
+        <select name="Count">
+            @for(int i=1;i<=10;i++){
+                <option value="@i" selected>@i</option>
+            }
+        </select><br><br>
+        <input type="submit" value="Report">
+    </form>
+</center>

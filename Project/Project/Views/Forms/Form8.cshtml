@@ -1,0 +1,17 @@
+﻿<center>
+    <form method="post">
+        <label>product name:</label>
+        <input type="text" name="productName" value="@TempData["productName"]"><br><br>
+        <label>Price:</label>
+        <input type="text" name="price" value="@TempData["price"]"><br><br>
+        <label>Count:</label>
+        <select name="Count">
+            @for(int i=1;i<=10;i++){
+                <option value="@TempData["Count"]" selected>@TempData["Count"]</option>
+            }
+        </select><br><br>
+        <input type="submit" value="Back"><br><br>
+        <label>Total:</label>
+        <input type="text" disabled value="@TempData["Total"]">
+    </form>
+</center>

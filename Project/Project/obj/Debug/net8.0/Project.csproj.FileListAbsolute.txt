@@ -28,3 +28,7 @@ C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\refint\
 C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\Project.pdb
 C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\Project.genruntimeconfig.cache
 C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\ref\Project.dll
+C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\Project.sourcelink.json
+C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\Project.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\ASP.NetUniProject\Project\Project\obj\Debug\net8.0\Project.csproj.Up2Date
