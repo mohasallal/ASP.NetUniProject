@@ -258,5 +258,29 @@ namespace Project.Controllers
         }
 
 
+        [HttpGet]
+        public IActionResult Form12()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Form12(string depart,int tel,string descr)
+        {
+            if(depart == "IT")
+            TempData["IT"] = depart.ToString();
+            else
+            TempData["Pharmacy"] = depart.ToString();
+            HttpContext.Session.SetString("tel", tel.ToString());
+
+            return RedirectToAction("Form13");
+        }
+
+        [HttpGet]
+        public IActionResult Form13()
+        {
+            ViewBag.tel = HttpContext.Session.GetString("tel");
+            return View();
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WGX7F8CDY7/TWWppL6JFLvoaKFm7Zs2/IRAyZQg0yz4=",
+  "Hash": "SYjgBAOn3tgsvaVUPKRmnzXb0Wk1CSwDeI4wRY+DsTU=",
   "Source": "Project",
   "BasePath": "_content/Project",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\Project\\Project\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\Project\\Project\\wwwroot\\",
+      "BasePath": "_content/Project",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\Project\\Project\\wwwroot\\favicon.ico",
