@@ -1,0 +1,20 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<center>
+<form method="post">
+    <label>name:</label>
+    <input type="text" name="name" value="@ViewBag.name"><br><br>
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="Male" checked><label>&nbsp;male</label>&nbsp;&nbsp;<input type="radio" name="gender" value="Female"><label>&nbsp;female</label><br><br>
+    <label>Country:</label>
+    <Select name="Country">
+        <option value="JOR">JOR</option>
+        <option value="SYR">SYR</option>
+        <option value="PAL">PAL</option>
+    </Select><br><br>
+    <button type="submit">Next</button>
+</form>
+</center>

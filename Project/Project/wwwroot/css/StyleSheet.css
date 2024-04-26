@@ -24,12 +24,18 @@ main {
   align-items: center;
 }
 
+aside {
+  position: fixed;
+  left: 10px;
+}
+
 .links ul {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   list-style: none;
 }
 

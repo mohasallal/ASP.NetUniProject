@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<center>
+    <form method="post">
+        <label>
+            Name:
+        </label>
+        <input type="text" name="name" /><br /><br />
+        <label>
+            Book:
+        </label>
+        <input type="text" name="book" /><br /><br />
+        <label>
+            Price:
+        </label>
+        <input type="text" name="price" /><br /><br />
+        <select name="Qty">
+            @for(int i = 1; i <= 10; i++)
+            {
+                <option value="@i" selected>@i</option>
+            }
+        </select><br /><br />
+        <input type="submit" value="Report" /><br /><br />
+        <input type="text" disabled value="@ViewBag.result" />
+    </form>
+</center>

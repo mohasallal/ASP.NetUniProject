@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|c:\\users\\user\\desktop\\asp.netuniproject\\databaseattempt\\databaseattempt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|solutionrelative:databaseattempt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|c:\\users\\user\\desktop\\asp.netuniproject\\databaseattempt\\databaseattempt\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|solutionrelative:databaseattempt\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|c:\\users\\user\\desktop\\asp.netuniproject\\databaseattempt\\databaseattempt\\migrations\\20240417060425_step1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|solutionrelative:databaseattempt\\migrations\\20240417060425_step1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|c:\\users\\user\\desktop\\asp.netuniproject\\databaseattempt\\databaseattempt\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|solutionrelative:databaseattempt\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|c:\\users\\user\\desktop\\asp.netuniproject\\databaseattempt\\databaseattempt\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09F34760-19B6-40C9-8A0C-21B8C538A4BE}|DataBaseAttempt\\DataBaseAttempt.csproj|solutionrelative:databaseattempt\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DataBaseAttempt\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DataBaseAttempt\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:09:56.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240417060425_step1.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Migrations\\20240417060425_step1.cs",
+              "RelativeDocumentMoniker": "DataBaseAttempt\\Migrations\\20240417060425_step1.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Migrations\\20240417060425_step1.cs",
+              "RelativeToolTip": "DataBaseAttempt\\Migrations\\20240417060425_step1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:04:26.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Program.cs",
+              "RelativeDocumentMoniker": "DataBaseAttempt\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Program.cs",
+              "RelativeToolTip": "DataBaseAttempt\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:59:34.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DataBaseAttempt\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Models\\User.cs",
+              "RelativeToolTip": "DataBaseAttempt\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:59:06.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataBaseAttempt\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\ASP.NetUniProject\\DataBaseAttempt\\DataBaseAttempt\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataBaseAttempt\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T05:52:48.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

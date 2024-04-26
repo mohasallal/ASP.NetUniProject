@@ -24,7 +24,7 @@ namespace Project.Controllers
             switch (b1)
             {
                 case "AVG":
-                    result = n1+n2;
+                    result = (n1+n2)/2;
                 break;
                 case "MAX":
                     result = Math.Max(n1, n2);
@@ -267,10 +267,15 @@ namespace Project.Controllers
         [HttpPost]
         public IActionResult Form12(string depart,int tel,string descr)
         {
-            if(depart == "IT")
-            TempData["IT"] = depart.ToString();
-            else
-            TempData["Pharmacy"] = depart.ToString();
+
+
+           
+            CookieOptions obj = new CookieOptions();
+            obj.Expires = DateTime.Now.AddDays(1);
+            Response.Cookies.Append("Description" , descr , obj);
+            
+            TempData["depart"] = depart;
+
             HttpContext.Session.SetString("tel", tel.ToString());
 
             return RedirectToAction("Form13");
@@ -279,6 +284,7 @@ namespace Project.Controllers
         [HttpGet]
         public IActionResult Form13()
         {
+          ViewBag.descr = Request.Cookies["Description"];
             ViewBag.tel = HttpContext.Session.GetString("tel");
             return View();
         }

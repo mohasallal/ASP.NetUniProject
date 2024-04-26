@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<center>
+    <form method="post">
+        <label>Name:</label>
+        <input type="text" name="name" value="@ViewBag.name"><br><br>
+        <label>Gender:</label>
+        <input type="text" name="gender" value="@TempData["gender"].ToString()"><br><br>
+        <label>Book:</label>
+        <input type="text" name="book" value="@ViewBag.book"><br><br>
+        <label>Price:</label>
+        <input type="text" name="price" value="@ViewBag.price"><br><br>
+        <label>Quantity:</label>
+        <input type="text" name="Qty" value="@ViewBag.qty"><br><br>
+        <label>Net Price:</label>
+        <input type="text" name="name" value="@ViewBag.result" /><br><br>
+        <input type="submit" value="Logout">
+    </form>
+</center>
